@@ -1,0 +1,123 @@
+body {
+    background: #E5E5E5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+#logo {
+    margin: 40px 0 0 40px;
+}
+
+#linkedin{
+    width: 45px;
+    height: 40px;
+}
+
+#github {
+    width: 50px;
+    height: 50px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 10px 70px 0 110px;
+}
+
+.texto {
+    background: #E5E5E5;
+    resize: none;
+    font-size: 25px;
+    color: darkblue;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#input::placeholder {
+    color: rgba(0, 0, 139, 0.918);
+}
+
+#input {
+    border-style: dashed;
+    border-color: rgb(16, 16, 209);
+    width: 550px;
+    height: 500px;
+}
+
+#output::placeholder {
+    height: 500px;
+    background: url(sem-mensagem.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: darkblue;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+#output{
+    background: white;
+    border-color: darkblue;
+    width: 350px;
+    height: 550px;
+    box-shadow: 0 24px 32px 8px rgba(31, 28, 75, 0.2);
+}
+
+#aviso {
+    color: rgb(87, 87, 87);
+    margin: 10px 0 10px 0;
+}
+
+.caixa {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 150px 40px 50px;
+}
+
+.btn {
+    width: 300px;
+    height: 50px;
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 15px;
+    color: darkblue;
+    font-weight: bold;
+    background: #E5E5E5;
+    border: 2px solid darkblue;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    width: 300px;
+    height: 50px;
+    font-size: 19px;
+    padding: 5px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    background: darkblue;
+    border-color: darkblue;
+    cursor: pointer;
+}
+
+#copiar {
+    position: relative;
+    bottom: 117px;
+    right: -98px;
+}
+
+footer p {
+    display: flex;
+    flex-wrap: wrap;
+    color: purple;
+    font-size: 14px;
+    justify-content: center;
+    margin-bottom: 10px;
+}

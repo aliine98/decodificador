@@ -24,13 +24,19 @@ let botaoDecodificar = document.getElementById("decodificador");
 let botaoCopiar = document.getElementById("copiar");
 let codifica = {a:"ai", e:"enter", i:"imes", o:"ober", u:"ufat"};
 let decodifica = {ai:"a", enter:"e", imes:"i", ober:"o", ufat:"u"};
+let aviso = document.getElementById("aviso");
 botaoCodificar.onclick = codificar;
 botaoDecodificar.onclick = decodificar;
 botaoCopiar.onclick = copiar;
 
 input.addEventListener('beforeinput', function(event) {
     if(/[^a-z\s]/.test(event.data)) {
-      event.preventDefault();
+        event.preventDefault();
+        aviso.style.color = "red";
+        aviso.style.fontWeight = "bold";
+    } else {
+        aviso.style.color = "rgb(87, 87, 87)";
+        aviso.style.fontWeight = "normal";
     }
 });
 

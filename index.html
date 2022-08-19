@@ -3,23 +3,26 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Decodificador de Texto</title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-            <img src="logo-alura.png" id="logo">
+            <img src="logo-alura.png" alt="Logo da Alura" id="logo">
             <div class="contato">
-                <a href="https://www.linkedin.com/in/aline-bevilacqua/"><img src="linkedin-logo.png" id="linkedin"></a>
-                <a href="https://github.com/Aliine98"><img src="github-logo.png" id="github"></a>
+                <a href="https://www.linkedin.com/in/aline-bevilacqua/"><img src="linkedin-logo.png" alt="Logo do LinkedIn" id="linkedin"></a>
+                <a href="https://github.com/Aliine98"><img src="github-logo.png" alt="Logo do GitHub" id="github"></a>
             </div>
         </header>
         <main>
             <textarea wrap="hard" id="input" placeholder="Digite seu texto..." class="texto"></textarea>
             <textarea wrap="hard" id="output" readonly placeholder="O texto codificado ou decodificado aparecerá aqui!" class="texto"></textarea>
-            <p id="aviso"><img src=exclamacao.png>Apenas letras minúsculas e sem acento!</p>
+            <p id="aviso"><img src=exclamacao.png alt="Ponto de exclamação">Apenas letras minúsculas e sem acento!</p>
         </main>
         <div class="caixa">
             <button id="codificador" class="btn">Codificar</button>

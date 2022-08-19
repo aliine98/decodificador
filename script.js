@@ -30,7 +30,7 @@ botaoDecodificar.onclick = decodificar;
 botaoCopiar.onclick = copiar;
 
 input.addEventListener('beforeinput', function(event) {
-    if(/[^a-z\s]/.test(event.data)) {
+    if(/[^a-z\s.,?!;]/.test(event.data)) {
         event.preventDefault();
         aviso.style.color = "red";
         aviso.style.fontWeight = "bold";

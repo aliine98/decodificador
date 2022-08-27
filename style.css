@@ -12,16 +12,16 @@ header {
     margin-right: 30px;
 }
 
-#logo {
+.logo {
     margin: 40px 0 0 40px;
 }
 
-#linkedin{
+.linkedin{
     width: 45px;
     height: 40px;
 }
 
-#github {
+.github {
     width: 50px;
     height: 50px;
 }
@@ -31,8 +31,9 @@ main {
     flex-wrap: wrap;
     flex-direction: row;
     align-items: flex-end;
-    justify-content: space-between;
-    margin: 10px 70px 0 110px;
+    justify-content: space-evenly;
+    margin: 10px 30px 0 30px;
+    gap: 10px;
 }
 
 .texto {
@@ -56,7 +57,7 @@ main {
 }
 
 #output::placeholder {
-    height: 500px;
+    height: 600px;
     background: url(sem-mensagem.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -70,27 +71,30 @@ main {
     background: white;
     border-color: darkblue;
     width: 350px;
-    height: 550px;
+    height: 600px;
     box-shadow: 0 24px 32px 8px rgba(31, 28, 75, 0.2);
 }
 
 #aviso {
+    display: flex;
+    gap: 5px;
+    justify-content: flex-start;
     color: rgb(87, 87, 87);
-    margin: 10px 0 10px 0;
+    margin: 10px 0 10px 110px;
 }
 
 .caixa {
     display: flex;
-    justify-content: space-evenly;
-    margin: 0 150px 40px 50px;
+    justify-content: space-around;
+    margin: 0 200px 40px 50px;
 }
 
 .btn {
-    width: 300px;
+    width: 200px;
     height: 50px;
-    font-size: 17px;
+    font-size: 20px;
     padding: 5px;
-    border-radius: 15px;
+    border-radius: 25px;
     color: darkblue;
     font-weight: bold;
     background: #E5E5E5;
@@ -99,11 +103,11 @@ main {
 }
 
 .btn:hover {
-    width: 300px;
+    width: 200px;
     height: 50px;
-    font-size: 19px;
+    font-size: 23px;
     padding: 5px;
-    border-radius: 15px;
+    border-radius: 25px;
     color: white;
     font-weight: bold;
     background: darkblue;
@@ -114,14 +118,65 @@ main {
 #copiar {
     position: relative;
     bottom: 117px;
-    right: -98px;
+    right: -70px;
 }
 
 footer p {
-    display: flex;
-    flex-wrap: wrap;
     color: purple;
     font-size: 14px;
-    justify-content: center;
+    text-align: center;
     margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) and (min-width: 390px) {
+    body {
+        width: 100%;
+    }
+
+    header{
+        margin: 20px;
+    }
+
+    .logo {
+        margin: 10px 0 0 0;
+    }
+
+    main {
+        gap: 100px;
+    }
+
+    #input, #output {
+        height: 400px;
+    }
+
+    #output::placeholder {
+        height: 400px;
+    }
+
+    #aviso {
+        position: absolute;
+        bottom: 355px;
+        margin: 10px 0 10px 35px;
+    }
+
+    .caixa {
+        gap: 30px;
+        position: absolute;
+        bottom: 305px;
+        margin: 0 0 0 40px;
+    }
+
+    .btn, .btn:hover {
+        width: 150px;
+    }
+
+    #copiar {
+        position: absolute;
+        top: 430px;
+        right: 95px;
+    }
+
+    footer {
+        margin: 50px 0;
+    }
 }

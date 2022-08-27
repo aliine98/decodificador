@@ -128,7 +128,7 @@ footer p {
     margin-bottom: 10px;
 }
 
-@media screen and (max-width: 768px) and (min-width: 390px) {
+@media screen and (max-width: 768px){
     body {
         width: 100%;
     }

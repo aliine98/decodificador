@@ -59,7 +59,7 @@ main {
     border-style: dashed;
     border-color: rgb(16, 16, 209);
     width: 80%;
-    height: 100vh;
+    height: 70vh;
 }
 
 #aviso {
@@ -111,7 +111,7 @@ main {
 }
 
 .texto-resultado::placeholder {
-    height: 110vh;
+    height: 80vh;
     background: url(sem-mensagem.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -123,7 +123,7 @@ main {
     background: white;
     border-color: darkblue;
     width: 70%;
-    height: 120vh;
+    height: 90vh;
     box-shadow: 0 24px 32px 8px rgba(31, 28, 75, 0.2);
 }
 

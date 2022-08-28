@@ -20,15 +20,19 @@
             </div>
         </header>
         <main>
-            <textarea wrap="hard" id="input" placeholder="Digite seu texto..." class="texto"></textarea>
-            <textarea wrap="hard" id="output" readonly placeholder="O texto codificado ou decodificado aparecerá aqui!" class="texto"></textarea>
+            <div class="criptografia">
+                <textarea wrap="hard" id="input" placeholder="Digite seu texto..." class="texto"></textarea>
+                <p id="aviso"><img src=exclamacao.png alt="Ponto de exclamação">Apenas letras minúsculas e sem acento!</p>
+                <div class="btn-criptografia">
+                    <button id="codificador" class="btn">Codificar</button>
+                    <button id="decodificador" class="btn">Decodificar</button>
+                </div>
+            </div>
+            <div class="resultado">
+                <textarea wrap="hard" id="output" readonly placeholder="O texto codificado ou decodificado aparecerá aqui!" class="texto-resultado"></textarea>
+                <button id="copiar" class="btn">Copiar</button>
+            </div>
         </main>
-        <p id="aviso"><img src=exclamacao.png alt="Ponto de exclamação">Apenas letras minúsculas e sem acento!</p>
-        <div class="caixa">
-            <button id="codificador" class="btn">Codificar</button>
-            <button id="decodificador" class="btn">Decodificar</button>
-            <button id="copiar" class="btn">Copiar</button>
-        </div>
         <footer>
             <p>Desenvolvido por Aline Bevilacqua Caetano &copy 2022</p>
             <p>Challenge Programa ONE e Alura</p>

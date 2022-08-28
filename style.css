@@ -117,7 +117,6 @@ main {
     background-position: center;
     color: darkblue;
     text-align: center;
-    font-weight: bold;
 }
 
 .texto-resultado {
@@ -134,7 +133,7 @@ main {
 }
 
 footer {
-    margin: 20px 0;
+    margin: 40px 0;
 }
 
 footer p {
@@ -165,6 +164,10 @@ footer p {
 
     .btn, .btn:hover {
         width: 150px;
+    }
+
+    #limpar, #limpar:hover {
+        width: 190px;
     }
 
     .btn-criptografia {

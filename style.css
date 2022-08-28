@@ -9,11 +9,11 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    margin-right: 30px;
+    margin: 0 10vw 10vh 5vw;
 }
 
-.logo {
-    margin: 40px 0 0 40px;
+.logo, .contato {
+    margin: 40px 0 0 0;
 }
 
 .linkedin{
@@ -28,51 +28,38 @@ header {
 
 main {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     align-items: flex-end;
-    justify-content: space-evenly;
-    margin: 10px 30px 0 30px;
-    gap: 10px;
+    justify-content: center;
 }
 
-.texto {
-    background: #E5E5E5;
+.criptografia {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+    margin: 0 0 0 5vw;
+}
+
+.texto, .texto-resultado {
     resize: none;
     font-size: 25px;
     color: darkblue;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 25px;
 }
 
-#input::placeholder {
+.texto::placeholder {
     color: rgba(0, 0, 139, 0.918);
 }
 
-#input {
+.texto {
+    background: #E5E5E5;
     border-style: dashed;
     border-color: rgb(16, 16, 209);
-    width: 550px;
-    height: 500px;
-}
-
-#output::placeholder {
-    height: 600px;
-    background: url(sem-mensagem.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    color: darkblue;
-    text-align: center;
-    font-size: 18px;
-
-}
-
-#output{
-    background: white;
-    border-color: darkblue;
-    width: 350px;
-    height: 600px;
-    box-shadow: 0 24px 32px 8px rgba(31, 28, 75, 0.2);
+    width: 80%;
+    height: 100vh;
 }
 
 #aviso {
@@ -80,13 +67,13 @@ main {
     gap: 5px;
     justify-content: flex-start;
     color: rgb(87, 87, 87);
-    margin: 10px 0 10px 110px;
 }
 
-.caixa {
+.btn-criptografia {
     display: flex;
-    justify-content: space-around;
-    margin: 0 200px 40px 50px;
+    justify-content: flex-start;
+    margin-bottom: 8vh;
+    gap: 5vw;
 }
 
 .btn {
@@ -115,10 +102,39 @@ main {
     cursor: pointer;
 }
 
+.resultado {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 35%;
+}
+
+.texto-resultado::placeholder {
+    height: 110vh;
+    background: url(sem-mensagem.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: darkblue;
+    text-align: center;
+    font-weight: bold;
+}
+
+.texto-resultado {
+    background: white;
+    border-color: darkblue;
+    width: 70%;
+    height: 120vh;
+    box-shadow: 0 24px 32px 8px rgba(31, 28, 75, 0.2);
+}
+
 #copiar {
     position: relative;
-    bottom: 117px;
-    right: -70px;
+    bottom: 20vh;
+}
+
+footer {
+    margin: 20px 0;
 }
 
 footer p {
@@ -128,55 +144,42 @@ footer p {
     margin-bottom: 10px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 950px) {
     body {
-        width: 100%;
-    }
-
-    header{
-        margin: 20px;
-    }
-
-    .logo {
-        margin: 10px 0 0 0;
+        width: auto;
     }
 
     main {
-        gap: 100px;
+        display: block;
     }
 
-    #input, #output {
-        height: 400px;
-    }
-
-    #output::placeholder {
-        height: 400px;
+    .criptografia, .resultado {
+        width: 100%;
+        margin: 0 0 0 0;
     }
 
     #aviso {
-        position: absolute;
-        bottom: 355px;
-        margin: 10px 0 10px 35px;
+        align-items: center;
+        margin-left: 3vw;
     }
 
-    .caixa {
-        gap: 30px;
-        position: absolute;
-        bottom: 305px;
-        margin: 0 0 0 40px;
+    .btn {
+        width: 45vw;
     }
 
-    .btn, .btn:hover {
-        width: 150px;
+    .btn-criptografia {
+        margin-bottom: 5vh;
+    }
+    .texto, .texto-resultado {
+        width: 80%;
+        height: 60vh;
+    }
+    .texto-resultado::placeholder {
+        height: 60vh;
+        font-size: 20px;
     }
 
     #copiar {
-        position: absolute;
-        top: 430px;
-        right: 95px;
-    }
-
-    footer {
-        margin: 50px 0;
+        bottom: 10vh;
     }
 }

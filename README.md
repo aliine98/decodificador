@@ -3,7 +3,7 @@
 <p>Oferece a possibilidade de codificar e decodificar um texto inserido e copiar o texto resultante.</p>
 <p>Link pages: https://aliine98.github.io/decodificador/</p>
 
-<p>Screenshots:</p>
+<h2>Screenshots</h2>
 <p>Desktop:</p>
 <img src="https://user-images.githubusercontent.com/90913523/191306451-f8232c67-6c01-4259-98c9-e5afbd459aab.png" width="900">
 

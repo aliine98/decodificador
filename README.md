@@ -1,9 +1,20 @@
 # ![Banner](https://user-images.githubusercontent.com/90913523/228412079-979cf9b2-b815-4cea-a75e-f2bc058f9947.png)
 
-<p align="center">
+<div align="center">
+  <a href="https://www.codefactor.io/repository/github/aliine98/decodificador"><img src="https://www.codefactor.io/repository/github/aliine98/decodificador/badge" alt="CodeFactor" /></a>
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Aliine98/decodificador?style=flat">
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Aliine98/decodificador?color=magenta&style=flat">
-  <a href="https://www.linkedin.com/in/aline-bevilacqua/"><img alt="Linkedin URL" src="https://img.shields.io/twitter/url?label=Conecte-se&logo=linkedin&style=social&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Faline-bevilacqua%2F"></a>
+  <a href="https://www.linkedin.com/in/aline-bevilacqua/"><img alt="Linkedin URL" src="https://img.shields.io/twitter/url?label=Conecte-se comigo&logo=linkedin&style=social&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Faline-bevilacqua%2F"></a>
+</div>
+
+<p align="center">
+  <a href="#-sobre-o-projeto">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-screenshots">Screenshots</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-rodando-localmente">Rodando localmente</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-contribuir-para-o-projeto">Como contribuir para o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
 </p>
 
 ## 💻 Sobre o projeto
@@ -56,18 +67,22 @@ Entre no diretório do projeto
   cd decodificador
 ```
 
-E abra o <code>index.html</code> no navegador, ou se quiser pode instalar o http-server para que suas modificações sejam carregadas automaticamente
+E abra o <code>index.html</code> no navegador ou, caso use o VScode, instale a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) e clique no botão <ins><strong>Go Live</strong></ins>, se não pode instalar o http-server para que suas modificações sejam recarregadas automaticamente em seu navegador
+
 ```bash
   npm install http-server
 ```
 Abra o servidor
+
 ```bash
   http-server ./
 ```
+
 Será mostrado os links do servidor, clique ou copie e abra no navegador.
 <p>Após a instalação do http-server também adicione um <code>.gitignore</code> com a pasta node_modules.</p>
 
 Utilize o comando abaixo para saber mais sobre o http-server:
+
 ```bash
   npm docs http-server
 ```

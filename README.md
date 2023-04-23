@@ -7,15 +7,16 @@
   <a href="https://www.linkedin.com/in/aline-bevilacqua/"><img alt="Linkedin URL" src="https://img.shields.io/twitter/url?label=Conecte-se comigo&logo=linkedin&style=social&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Faline-bevilacqua%2F"></a>
 </div>
 
-<p align="center">
-  <a href="#-sobre-o-projeto">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-screenshots">Screenshots</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-rodando-localmente">Rodando localmente</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-contribuir-para-o-projeto">Como contribuir para o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-licença">Licença</a>
-</p>
+> Table of Contents
+> <ul>
+>   <li><a href="#-sobre-o-projeto">Sobre</a></li>
+>   <li><a href="#-funcionalidades">Funcionalidades</a></li>
+>   <li><a href="#-screenshots">Screenshots</a></li>
+>   <li><a href="#-tecnologias">Tecnologias</a></li>
+>   <li><a href="#-rodando-localmente">Rodando localmente</a></li>
+>   <li><a href="#-como-contribuir-para-o-projeto">Como contribuir para o projeto</a></li>
+>   <li><a href="#-licença">Licença</a>
+> </ul>
 
 ## 💻 Sobre o projeto
 

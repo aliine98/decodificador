@@ -13,7 +13,7 @@ header {
 }
 
 .logo, .contato {
-    margin: 40px 0 0 0;
+    margin: 40px 0 0;
 }
 
 .linkedin{
@@ -154,7 +154,7 @@ footer p {
 
     .criptografia, .resultado {
         width: 100%;
-        margin: 0 0 0 0;
+        margin: 0;
     }
 
     #aviso {
